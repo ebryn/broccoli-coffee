@@ -9,6 +9,7 @@ function CoffeeScriptFilter (inputTree, options) {
   Filter.call(this, inputTree, options)
   options = options || {}
   this.bare = options.bare
+  this.description = options.description
 }
 
 CoffeeScriptFilter.prototype.extensions = ['coffee', 'litcoffee', 'coffee.md']
